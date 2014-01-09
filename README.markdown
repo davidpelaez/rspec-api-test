@@ -95,9 +95,11 @@ Installation
 Just add
 
     gem 'rspec_api_test'
+    gem 'rest-client'
 
 to your `Gemfile` and in `spec_helper.rb` do a 
 
+    require 'rest-client'
     require 'rspec_api_test'
 
 after you required rspec or did a `Bundler.require`.
